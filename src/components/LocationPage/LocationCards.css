@@ -1,0 +1,137 @@
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.cards-heading {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  color: #6b7280;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-decoration: underline;
+}
+
+.location-cards {
+  display: flex;
+  text-align: left;
+  position: relative;
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 100ms ease-in;
+  box-shadow: 0 6px 18px -9px rgba(0, 0, 0, 0.3);
+}
+
+.location-cards:hover {
+  transform: scale(1.05);
+}
+
+.location-image {
+  height: 200px;
+  width: 300px;
+  object-fit:cover;
+  border-radius: 10px;
+}
+
+.location-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.location-name {
+  font-weight: 600;
+  font-size: 24px;
+
+  color: #374151;
+}
+
+.location-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  width: 100%;
+  text-align: left;
+}
+
+.location-title{
+  font-size: 14px;
+    font-weight: 400;
+    color: #6B7280;
+    line-height: 20px;
+}
+
+.location-name{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  color:#374151;
+}
+
+.location-rooms,
+.location-amenities {
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 20px;
+  color: #6B7280;
+}
+
+
+.rating-and-price{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.location-rating{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color:#374151;
+}
+.rating-and-star {
+  display: flex;
+  justify-content: space-between;
+  /* width: 150px; */
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.gold-star{
+  color: gold;
+  font-size: 1.2rem;
+}
+
+.reviews {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6B7280;
+}
+
+.location-price{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color:#374151;
+}
+
+.price-value{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #374151;
+}

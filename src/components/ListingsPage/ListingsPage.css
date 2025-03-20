@@ -1,0 +1,133 @@
+.listings-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.listings-header {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  color: #6b7280;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-decoration: underline;
+}
+
+.listings-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.listing-card {
+  display: flex;
+  text-align: left;
+  position: relative;
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 100ms ease-in;
+  box-shadow: 0 6px 18px -9px rgba(0, 0, 0, 0.3);
+}
+
+.listing-card:hover {
+  transform: scale(1.05);
+}
+
+.listing-image {
+  height: 200px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.listing-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  width: 100%;
+  text-align: left;
+}
+
+.listing-title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b7280;
+  line-height: 20px;
+}
+
+.listing-description {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #374151;
+}
+
+.listing-rooms,
+.listing-amenities {
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 20px;
+  color: #6b7280;
+}
+
+.rating-and-reviews {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.rating-and-star {
+  display: flex;
+  justify-content: space-between;
+  /* width: 150px; */
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.listing-rating {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #374151;
+}
+
+.gold-star {
+  color: #fcd34d;
+  font-size: 1.2rem;
+}
+
+.reviews {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6B7280;
+}
+
+.listing-price {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #374151;
+  margin: 8px 0;
+}
+
+.price-value {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #374151;
+}

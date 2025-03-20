@@ -1,0 +1,68 @@
+.shop-airbnb-container {
+    position:relative;
+    width: calc(100% - 160px); /* 100% width minus 80px left and right padding */
+    height: 600px;
+    display:flex;
+    padding:40px 80px;
+    gap:48px;
+    width:100%;
+    overflow:hidden;
+    max-width: 1750px;
+  }
+  
+  .left-content {
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 24px;
+    padding: 48px 0px;
+  }
+  
+  .left-content p {
+    font-size: 60px;
+    line-height: 80px;
+    max-width:400px;
+    width:100%;
+    font-weight: 500;
+    margin: 0 0 24px 0;
+    text-align: left;
+  }
+  
+  .left-content button {
+    display: flex;
+    justify-content: flex-start;
+    padding: 16px 24px;
+    gap:8px;
+    width: 135px;
+    height:56px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+.left-content button:hover {
+  display: flex;
+  justify-content: flex-start;
+  padding: 16px 24px;
+  gap:8px;
+  width: 135px;
+  height:56px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+  
+  .gift-cards-image {
+    width: 70%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  

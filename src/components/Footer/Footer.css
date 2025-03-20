@@ -1,0 +1,74 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #F9FAFB;
+    padding: 40px 0 0 0;
+    gap:48px;
+  }
+  
+  .footer_items {
+    display: flex;
+    width: calc(100% - 160px);
+    align-items: flex-start;
+    line-height: 40px;
+    max-width: 1750px; 
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .support_section,
+  .community_section,
+  .hosting_section,
+  .about_section {
+    flex: 1;
+    margin-right: 40px; 
+  }
+  
+  .footer h3 {
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer ul li {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  /* Styles for the copyright footer */
+  .copyright_footer {
+    height: 60px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: #F9FAFB;
+  }
+  
+  .copyright_info {
+    display: flex;
+    border-top: grey;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    width: calc(100% - 160px);
+    align-items: center;
+    max-width: 1750px; 
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .drop_downs {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: flex-end;
+  }
+  

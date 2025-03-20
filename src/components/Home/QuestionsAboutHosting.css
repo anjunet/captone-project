@@ -1,0 +1,77 @@
+/* QuestionsAboutHosting.css */
+
+/* Reset default styles and ensure consistent box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style for the main container */
+.hosting-container {
+  position: relative;
+  width: calc(100% - 160px); 
+  max-width: 1750px; 
+  height: 800px; 
+  border-radius: 8px; 
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: 80px; 
+  margin: 0 auto;
+}
+
+/* Style for the background image */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  border-radius: 8px; 
+  object-position: center 60%; 
+}
+
+/* Style for the content container */
+.hosting-content {
+  position: relative;
+  z-index: 1;
+  padding: 0 24px; 
+  width: 465px;
+  height:288px;
+}
+
+/* Style for the heading */
+.hosting-content h1 {
+  font-size: 96px; /* Font size */
+  font-weight: 500; /* Font weight */
+  line-height: 96px; /* Line height */
+  text-align: left; /* Text alignment */
+  color: white; /* Text color */
+  margin-bottom: 24px; /* Margin bottom for spacing */
+}
+
+/* Style for the button */
+.hosting-content button {
+  display: flex;
+  width: 174px; 
+  height: 56px; 
+  padding: 16px 24px; 
+  gap: 8px;
+  border: none; 
+  border-radius: 8px ; 
+  background-color: white; 
+  color: black; 
+  font-size: 16px; 
+  font-weight: 500; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  align-items: self-start;
+}
+
+.hosting-content button:hover {
+  background-color: red; 
+  color:white;
+}

@@ -1,0 +1,40 @@
+h1 {
+  margin: 20px;
+  font-size: 24px;
+}
+
+
+.view-reservations-container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1800px;
+  }
+  
+  .reservations-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .reservations-table th,
+  .reservations-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .reservations-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .reservations-table td button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .reservations-table td button:hover {
+    background-color: #ff1a1a;
+  }
+  

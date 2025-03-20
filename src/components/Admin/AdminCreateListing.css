@@ -1,0 +1,177 @@
+h1 {
+  margin: 20px;
+  font-size: 24px;
+}
+
+
+.header-buttons button {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 20px;
+  justify-content: flex-start;
+  border-radius: 50px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+}
+
+
+.header-buttons button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+/* General Styles */
+select,
+input,
+textarea {
+  border: 2px solid #333;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+}
+
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #4153f5;
+  text-align: left;
+}
+
+input, select {
+  height: 55px;
+}
+
+.create-listing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.create-listing-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.create-listing-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.left-column,
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width:100%;
+  box-sizing: border-box;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.images-button button {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height:auto;
+  margin-bottom:5px;
+}
+
+button {
+  width: 100%;
+  max-width: 277px;
+  height: 55px;
+  padding: 10px 20px;
+  background-color: #4153F5;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button.cancel-button {
+  background-color: #f44336;
+}
+
+button:hover {
+  background-color: #3548d1;
+}
+
+.amenities {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.amenities button {
+  width: 80px;
+}
+
+.listing-buttons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.check-boxes {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.check-boxes input {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.accommodation-details,
+.form-selections {
+  display: flex;
+  gap: 15px;
+  width:100%;
+  box-sizing: border-box;
+}
+
+.accommodation-details .input-group{
+  width: 100%;
+  flex: 1;
+}
+
+.form-selections .input-group {
+  width: 100%;
+  flex: 1;
+}
+
+
+
+
+

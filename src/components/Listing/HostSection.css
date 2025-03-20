@@ -1,0 +1,67 @@
+.about-host-container {
+    width: calc(100% - 320px); /* Consistent width calculation */
+    padding: 20px 0;
+    margin-bottom: 32px;
+    border-top: 1px solid #ccc;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .host-details {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .host-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .host-info {
+    flex: 1;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .host-info h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .host-info p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .host-info p span {
+    margin-right: 8px;
+  }
+  
+  .contact-host-button {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-host-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .disclaimer {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #888;
+  }
+  
+ 
